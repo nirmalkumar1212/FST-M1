@@ -10,6 +10,7 @@ import io.cucumber.junit.Cucumber;
     features = "src/test/java/Features",
     glue = {"stepDefinitions"},
     tags = "@DatatableExample",
+    monochrome =true,
     publish = true,
     plugin = {
     		"pretty",
